@@ -1,0 +1,26 @@
+{
+  "name": "jims-derp-cli",
+  "version": "0.0.1",
+  "description": "A cli tool that prints \"derp\" to the console.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimTheMan/Derp-CLI.git"
+  },
+  "keywords": [
+    "derp",
+    "cli"
+  ],
+  "author": "JimTheMan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JimTheMan/Derp-CLI/issues"
+  },
+  "homepage": "https://github.com/JimTheMan/Derp-CLI#readme",
+  "dependencies": {
+    "yargs": "^15.0.2"
+  }
+}
