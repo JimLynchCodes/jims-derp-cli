@@ -22,5 +22,9 @@
   "homepage": "https://github.com/JimTheMan/Derp-CLI#readme",
   "dependencies": {
     "yargs": "^15.0.2"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "jims-derp-cli": "./bin/index.js"
   }
 }
