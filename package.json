@@ -1,10 +1,10 @@
 {
   "name": "jims-derp-cli",
-  "version": "0.0.1",
+  "version": "0.0.16",
   "description": "A cli tool that prints \"derp\" to the console.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha bin"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/JimTheMan/Derp-CLI#readme",
   "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
     "yargs": "^15.0.2"
   },
   "preferGlobal": true,
