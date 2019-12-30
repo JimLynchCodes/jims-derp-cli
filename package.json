@@ -1,10 +1,11 @@
 {
   "name": "jims-derp-cli",
-  "version": "0.0.17",
+  "version": "0.0.24",
   "description": "A cli tool that prints \"derp\" to the console.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha bin"
+    "test": "mocha --watch bin",
+    "test-once": "mocha bin"
   },
   "repository": {
     "type": "git",

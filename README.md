@@ -22,7 +22,7 @@ Any one of these flags or their aliases may be added to get a more interesting o
 
 `--forcefully, -f` - Prints derp forcefully.
 
-`--very-forcefully, -v` - Prints derp very forcefully.
+`--very-forcefully, -e` - Prints derp very forcefully.
 
 `--extremely-forcefully, -x` - Prints derp extremely forcefully.
 

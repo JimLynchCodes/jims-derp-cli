@@ -1,21 +1,20 @@
+const responseMap = require('./response-map')
+
 const getMessageFromInput = (args) => {
 
-    if (!args)
-        return 'derp'
+    if (args['extremely-forcefully'])
+        return responseMap['extremely-forcefully']
 
-    if (args['extremely-forceful'])
-        return 'F&!%$NG DERP, MOTHER F&!%$ER!!!!!'
+    if (args['very-forcefully'])
+        return responseMap['very-forcefully']
 
-    if (args['very-forceful'])
-        return 'DERP!!!'
+    if (args['forcefully'])
+        return responseMap['forcefully']
 
-    if (args.forceful)
-        return 'Derp!'
+    if (args['politely'])
+        return responseMap['politely']
 
-    if (args.polite)
-        return 'please derp, thank you very much.'
-
-    return 'derp'
+    return responseMap['[default]']
 
 }
 

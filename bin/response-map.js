@@ -1,9 +1,9 @@
 const responseMap = {
     "[default]": 'derp',
-    "polite": 'please derp, thank you very much.',
-    "forceful": 'Derp!',
-    "very-forceful": 'DERP!!!',
-    "extremely-forceful": 'F&!%$NG DERP, MOTHER F&!%$ER!!!!!'
+    "politely": 'please derp, thank you very much.',
+    "forcefully": 'Derp!',
+    "very-forcefully": 'DERP!!!',
+    "extremely-forcefully": 'F&!%$NG DERP, MOTHER F&!%$ER!!!!!'
 }
 
 module.exports = responseMap
