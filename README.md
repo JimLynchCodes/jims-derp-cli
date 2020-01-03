@@ -38,12 +38,33 @@ For example:
 jims-derp-cli -p
 ```
 
+# Key Takeaways For Making Your Own CLI
+
+- Add "bin" to your package.json:
+```
+ "bin": {
+    "jims-derp-cli": "./bin/index.js"
+  },
+```
+
+- Make it a "default command" with the [$0 argument](https://github.com/JimLynchCodes/jims-derp-cli/blob/master/bin/index.js#L39) in the yargs library:
+```
+.command('$0', 'Prints "derp" to the console.', () => { }, (argv) => {
+```
+
+- Shows how to add aliases for your custom commands and for the yargs builtin `--version` ([here](https://github.com/JimLynchCodes/jims-derp-cli/blob/master/bin/index.js#L6_L37)).
+
+
+- Publish your own npm packages with:
+```
+npm publish
+```
+
+
 # Enjoy!
 Yes, this is an incredibly awesome npm package. Do be sure to show it to all your friends. 👍
 
-And, if you're not a greedy star-hoader, please give this repo a star. 🙏
-
-Thanks muchly,
+Much thanks and best regards,
 
 [JimTheMan](https://github.com/JimTheMan)
 
