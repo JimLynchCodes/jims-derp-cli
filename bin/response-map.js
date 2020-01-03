@@ -3,7 +3,7 @@ const responseMap = {
     "politely": 'please derp, thank you very much.',
     "forcefully": 'Derp!',
     "very-forcefully": 'DERP!!!',
-    "extremely-forcefully": 'F&!%$NG DERP, MOTHER F&!%$ER!!!!!'
+    "extremely-forcefully": 'GYAAAAHHHHHH, I SAID DEEEEEERRRRRRPPP!!!!!! 😡😡😡'
 }
 
 module.exports = responseMap
