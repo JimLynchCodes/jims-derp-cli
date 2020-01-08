@@ -62,9 +62,9 @@ npm publish
 
 
 # Enjoy!
-Yes, this is an incredibly awesome npm package. Do be sure to show it to all your friends. 👍
+Hopefully this helps you somehow! 🙏
 
 Much thanks and best regards,
 
-[JimTheMan](https://github.com/JimTheMan)
+[Jim](https://github.com/JimLynchCodes)
 
